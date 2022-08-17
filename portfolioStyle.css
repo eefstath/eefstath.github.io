@@ -1,3 +1,28 @@
-.testClass{
-    background-color: bisque;
+body{
+    margin:4%;
+    background-color: #050525;
+    color: whitesmoke;
+    font-family: andale mono, monospace;
+}
+.rowFlexbox{
+    display: flex;
+    flex-direction: row;
+}
+.border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: whitesmoke;
+    border-radius: 12px;
+}
+#profileImage{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0A0A4A;
+}
+
+.barItem{
+    margin: 0 2px;
 }
