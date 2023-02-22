@@ -1,8 +1,8 @@
 body{
     margin:4%;
-    background-color: #050525;
-    color: whitesmoke;
-    font-family: andale mono, monospace;
+    background-color: #161B22;
+    color: #C9D1D9;
+    font-family: "andale mono", monospace, sans-serif;
 }
 .rowFlexbox{
     display: flex;
