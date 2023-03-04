@@ -7,26 +7,54 @@
         <title>My Portfolio</title>
     </head>
     <body>
-        <div class="menuBar rowFlexbox border">
-            <div id="profileInfo" class="rowFlexbox">
-                <img id="profileImage" src="linked_cropped.jpg" alt="profile picture">
-                <p>Efstathiou Manolis</p>
+        <div class="border sidebar">
+            <h3>Contents</h3>
+            <hr>
+            <a href="#overview">Overview</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+        </div>
+        <div class="columnFlexbox">
+            <div class="menuBar border">
+                <div id="profileInfo">
+                    <img id="profileImage" src="linked_cropped.jpg" alt="profile picture">
+                    <p>Efstathiou Manolis</p>
+                </div>
             </div>
-        </div>
-        <div class="rowFlexbox border">
-            Overview
-        </div>
-        <div class="rowFlexbox border">
-            Skills
-        </div>
-        <div class="rowFlexbox border">
-            Education
-        </div>
-        <div class="rowFlexbox border">
-            Experience
-        </div>
-        <div class="rowFlexbox border">
-            Projects
+            <div id="overview" class="border">
+                <h3>Overview</h3>
+                <hr>
+                <p>
+                    <!-- Overview of 1.University 2.Internship 3.Thesis 4.Current job -->
+                    Computer Science bachelor graduate at Aristotle University of Thessaloniki, with
+                    multiple programming languages experience.
+                    <!-- <br><br> -->
+                    Internship experience in frontend web development.
+                    <!-- <br><br> -->
+                    University thesis conducted using VHDL and later implemented in an FPGA board,
+                    extending knowledge of digital design systems.
+                    <!-- <br><br> -->
+                    Currently working full-time as a software engineer at Intracom Telecom.
+                </p>
+            </div>
+            <div id="education" class="border">
+                <h3>Education</h3>
+                <hr>
+            </div>
+            <div id="skills" class="border">
+                <h3>Skills</h3>
+                <hr>
+            </div>
+            <div id="experience" class="border">
+                <h3>Experience</h3>
+                <hr>
+            </div>
+            <div id="projects" class="border">
+                <h3>Projects</h3>
+                <hr>
+            </div>
         </div>
        <script type="text/javascript" src="portfolioScript.js"></script> 
     </body>
