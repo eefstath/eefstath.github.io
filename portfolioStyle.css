@@ -7,7 +7,10 @@ body{
 .columnFlexbox{
     display: flex;
     flex-direction: column;
-    margin-left:150px;
+}
+.rowFlexbox{
+    display: flex;
+    flex-direction: row;
 }
 .border{
     margin: 5px;
@@ -24,6 +27,9 @@ body{
     border-width: 2px; */
     transition: 0.25s ease-in-out 0s;
 }
+.contentBorder{
+    margin: 0 5px;
+}
 #profileImage{
     height: 60px;
     width: 60px;
@@ -32,12 +38,22 @@ body{
     border-style: solid;
     border-color: #0A0A4A;
 }
+.sideImage{
+    height: 60px;
+    width: 60px;
+}
+.mainbar{
+    margin-left: 150px; 
+}
 .sidebar{
-    height: 80%;
+    /*height: 80%;*/
     width: 120px;
     background-color:#3a4047;
     position: fixed;
     overflow-x: hidden;
+}
+.customHeader{
+    font-weight: bold;
 }
 a{
     text-decoration: none;
