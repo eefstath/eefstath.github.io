@@ -28,7 +28,13 @@ body{
     transition: 0.25s ease-in-out 0s;
 }
 .contentBorder{
-    margin: 0 5px;
+    margin-left: 65px;
+    margin-top: 5px;
+    position: relative;
+}
+.contentHr hr{
+    margin:20px;
+    border-width: 1px;
 }
 #profileImage{
     height: 60px;
@@ -52,8 +58,17 @@ body{
     position: fixed;
     overflow-x: hidden;
 }
+.contentHeader{
+    margin-left: 5px;
+}
 .customHeader{
     font-weight: bold;
+}
+.secondaryInfo{
+    color: #909090;
+}
+.contentText{
+    font-family: "Courier New", Monospace;
 }
 a{
     text-decoration: none;
