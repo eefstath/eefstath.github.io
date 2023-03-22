@@ -28,13 +28,18 @@ body{
     transition: 0.25s ease-in-out 0s;
 }
 .contentBorder{
-    margin-left: 65px;
-    margin-top: 5px;
+    margin-left: 75px;
+    margin-top: 10px;
     position: relative;
 }
-.contentHr hr{
-    margin:20px;
-    border-width: 1px;
+hr.contentHr{
+    margin-left:75px;
+    margin-top:5px;
+    margin-bottom:5px;
+    height: 1px;
+    border: 0;
+    background: #C9D1D9;
+    #background-image: linear-gradient(to right, #ccc, #C9D1D9, #ccc);
 }
 #profileImage{
     height: 60px;
@@ -45,8 +50,8 @@ body{
     border-color: #0A0A4A;
 }
 .sideImage{
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 .mainbar{
     margin-left: 150px; 
@@ -65,7 +70,7 @@ body{
     font-weight: bold;
 }
 .secondaryInfo{
-    color: #909090;
+    color: #C8C8C8;
 }
 .contentText{
     font-family: "Courier New", Monospace;
