@@ -32,15 +32,6 @@ body{
     margin-top: 10px;
     position: relative;
 }
-hr.contentHr{
-    margin-left:75px;
-    margin-top:5px;
-    margin-bottom:5px;
-    height: 1px;
-    border: 0;
-    background: #C9D1D9;
-    #background-image: linear-gradient(to right, #ccc, #C9D1D9, #ccc);
-}
 #profileImage{
     height: 60px;
     width: 60px;
@@ -70,7 +61,8 @@ hr.contentHr{
     font-weight: bold;
 }
 .secondaryInfo{
-    color: #C8C8C8;
+    #color: #C9C9C9;
+    opacity: 0.7;
 }
 .contentText{
     font-family: "Courier New", Monospace;
@@ -82,6 +74,14 @@ a{
 a:hover{
     color:beige;
 }
-hr{
+.innerHr{
+    margin-left:75px;
+    margin-top:5px;
+    margin-bottom:5px;
+    height: 1px;
+    border: 0px;
+    background: #C9D1D9;
+}
+.outerHr{
     border: 1px solid #C9D1D9;
 }

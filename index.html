@@ -9,10 +9,10 @@
     <body>
         <div class="border sidebar">
             <h3>Contents</h3>
-            <hr>
+            <hr class="outerHr">
             <a href="#overview">Overview</a>
-            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+	    <a href="#education">Education</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
         </div>
@@ -25,23 +25,27 @@
             </div>
             <div id="overview" class="border">
                 <h3>Overview</h3>
-                <hr>
+                <hr class="outerHr">
                 <div class="contentText">
                     <!-- Overview of 1.University 2.Internship 3.Thesis 4.Current job -->
                     Computer Science bachelor graduate at Aristotle University of Thessaloniki, with
                     multiple programming languages experience.
-                    <br><br>
+                    <!--<br><br>-->
                     Internship experience in frontend web development.
-                    <br><br>
+		    <!--<br><br>-->
                     University thesis conducted using VHDL and later implemented in an FPGA board,
                     extending knowledge of digital design systems.
-                    <br><br>
+		    <!--<br><br>-->
                     Currently working full-time as a software engineer at Intracom Telecom.
 		</div>
             </div>
+            <div id="skills" class="border">
+                <h3>Skills</h3>
+                <hr class="outerHr">
+            </div>
             <div id="education" class="border">
                 <h3>Education</h3>
-                <hr>
+                <hr class="outerHr">
 		<div class="columnFlexbox">
 		    <div class="contentItem rowFlexbox">
 			<img class="sideImage" src="auth-logo.png" alt="auth picture">
@@ -57,14 +61,10 @@
 		        meaningless words until I find the correct text to replace.
 		    </div>
 		</div>
-            </div>
-            <div id="skills" class="border">
-                <h3>Skills</h3>
-                <hr>
-            </div>
+            </div> 
             <div id="experience" class="border">
                 <h3>Experience</h3>
-                <hr>
+                <hr class="outerHr">
 		<div class="columnFlexbox">
 		    <div class="contentItem rowFlexbox">
 			<img class="sideImage" src="infoscope-logo.png" alt="infoscope hellas picture">
@@ -81,7 +81,7 @@
 		        meaningless words until I find the correct text to replace.
 		    </div>
 		</div>
-		<hr class="contentHr">
+		<hr class="innerHr">
  		<div class="columnFlexbox">
 		    <div class="contentItem rowFlexbox">
 			<img class="sideImage" src="intracom-logo.jpg" alt="intracom-telecom picture">
@@ -101,7 +101,7 @@
             </div>
             <div id="projects" class="border">
                 <h3>Projects</h3>
-                <hr>
+                <hr class="outerHr">
             </div>
         </div>
        <script type="text/javascript" src="portfolioScript.js"></script> 
