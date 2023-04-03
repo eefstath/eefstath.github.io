@@ -45,14 +45,17 @@ body{
     width: 70px;
 }
 .mainbar{
-    margin-left: 150px; 
+    margin-left: 180px; 
+    margin-right: 180px;
 }
 .sidebar{
     /*height: 80%;*/
-    width: 120px;
-    background-color:#3a4047;
+    width: 160px;
     position: fixed;
     overflow-x: hidden;
+}
+.contentSidebar{
+    background-color:#3a4047;
 }
 .contentHeader{
     margin-left: 5px;
